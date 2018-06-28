@@ -14,6 +14,7 @@ class CalculatorServiceProvider extends ServiceProvider
     public function boot()
     {
         //
+        include __DIR__.'/routes.php';
     }
 
     /**
@@ -24,5 +25,6 @@ class CalculatorServiceProvider extends ServiceProvider
     public function register()
     {
         //
+        $this->app->make('Patricmutwiri\Calculator\CalculatorController');
     }
 }
