@@ -1,0 +1,12 @@
+{
+    "name": "patricmutwiri/calculator",
+    "description": "simple calculator",
+    "authors": [
+        {
+            "name": "Patrick Mutwiri",
+            "email": "patwiri@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
