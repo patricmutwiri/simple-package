@@ -26,5 +26,6 @@ class CalculatorServiceProvider extends ServiceProvider
     {
         //
         $this->app->make('Patricmutwiri\Calculator\CalculatorController');
+         $this->loadViewsFrom(__DIR__.'/views', 'calculator');
     }
 }
